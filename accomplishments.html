@@ -4,23 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accomplishments | Marlboro Mustangs Ice Hockey</title>
+    <title>Accomplishments - Marlboro Mustangs</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
-    <!-- Header Section -->
-    <header>
-        <div class="container">
-            <h1>Marlboro Mustangs Ice Hockey - Accomplishments</h1>
-        </div>
-    </header>
-
-    <!-- Navbar Section -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container">
-            <a class="navbar-brand" href="#">Mustangs</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Marlboro Mustangs</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -31,36 +23,31 @@
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="roster.html">Roster</a>
+                        <a class="nav-link" href="team.html">Team</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" href="accomplishments.html">Accomplishments</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                        <a class="nav-link" href="schedule.html">Schedule</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <!-- Accomplishments Section -->
-    <main class="container my-5">
-        <h2>Notable Accomplishments</h2>
-        <p>We are proud of our team's hard work and success!</p>
-        <ul id="accomplishmentsList">
-            <!-- Accomplishments will be dynamically inserted here by JavaScript -->
-        </ul>
-    </main>
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Marlboro Mustangs Accomplishments</h2>
+        <div class="row">
+            <!-- Accomplishments are dynamically inserted here -->
+        </div>
+    </div>
 
-    <!-- Footer Section -->
-    <footer class="text-center py-3">
-        <p>&copy; 2025 Marlboro Mustangs Ice Hockey. All rights reserved.</p>
+    <footer class="footer bg-dark text-white text-center py-4">
+        <p>&copy; 2024 Marlboro Mustangs Ice Hockey. All Rights Reserved.</p>
     </footer>
 
-    <!-- JavaScript files -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="script.js" defer></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
